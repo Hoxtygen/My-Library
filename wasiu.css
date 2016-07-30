@@ -1,0 +1,281 @@
+body	{ background-color: lightgray;
+		  font-size: 90%;
+		  font-family: Georgia, Verdana, Helvetica, sans-serif;
+		  line-height: 1.4;
+		  text-align: left;
+
+	
+}
+
+a 		{ text-decoration: none;
+
+}
+
+a:link	{ color: white;
+
+}
+
+a:visited	{color: red;
+
+}
+
+a:hover	{color: #cf5c3f;
+
+}
+
+ul li	{ color: #006633;
+		 font-weight: 600;
+		 font-size: medium;
+
+
+
+}
+
+cite	{ color: blue;
+
+}
+
+
+
+.body	{ margin: 0 auto;
+		  width: 70%;
+		  clear: both;
+
+}
+
+/*.single	{text-align: right;}*/
+
+h1, h2, h3	{ font-family: "Trebuchet MS", Georgia, Helvetica, sans-serif;
+	 font-weight: bold;color: maroon;
+
+}
+
+.main-header nav	{background-color: #666;
+					 height: 40px;
+					 border-radius: 5px;
+					 -moz-border-radius: 5px; 
+					 -webkit-border-radius: 5px;
+
+
+}
+
+.main-header nav ul	{ list-style: none;
+					  margin: 0 auto;
+
+
+}
+
+.main-header nav ul li 		{ float: left;
+							 display: inline;
+
+
+}
+
+.main-header nav a:link, .main-header nav a:visited	{ color: white;
+													  display: inline-block;
+													  padding: 10px 25px;
+													  height: 20px;
+
+} 
+
+.main-header nav a:hover, .main-header nav a:active	{ background-color: #cf5c3f;
+													 text-shadow: none;
+
+
+}
+
+.main-header nav ul li a 	{border-radius: 5px;
+							-moz-border-radius: 5px; 
+							 -webkit-border-radius: 5px;
+
+}
+
+.main-content	{ border-radius: 5px;
+				 -moz-border-radius: 5px; 
+				 -webkit-border-radius: 5px;
+				 line-height: 25px;
+				 
+
+
+
+}
+
+.content 	{ width: 70%;
+			  float: left;
+			  border-radius: 5px;
+			-moz-border-radius: 5px; 
+			-webkit-border-radius: 5px;
+}
+
+.top-content	{border-radius: 5px;
+			    -moz-border-radius: 5px; 
+			     -webkit-border-radius: 5px;
+			     background-color: white;
+			    padding: 2% 3%;
+			    margin-top: 2%;
+
+		}
+
+.middle-content	{border-radius: 5px;
+			-moz-border-radius: 5px; 
+			-webkit-border-radius: 5px;
+			background-color: white;
+			padding: 2% 3%;
+			margin-top: 2%;
+
+		}
+
+.bottom-content	{border-radius: 5px;
+			-moz-border-radius: 5px; 
+			-webkit-border-radius: 5px;
+			background-color: white;
+			padding: 2% 3%;
+			margin-top: 2%;
+
+		}
+
+.first-sidebar	{width: 21%;
+				 float: left;
+				 background-color: white;
+				 margin-left: 3%;
+				 border-radius: 5px;
+			    -moz-border-radius: 5px; 
+			   -webkit-border-radius: 5px;
+			   	padding: 2% 3%;
+			   	margin-bottom: 2%;
+			   	margin-top: 4.5em;
+
+
+
+}
+
+.second-sidebar	{width: 21%;
+				 float: left;
+				 background-color: white;
+				 margin-left: 3%;
+				 border-radius: 5px;
+			    -moz-border-radius: 5px; 
+			   -webkit-border-radius: 5px;
+			   	padding: 2% 3%;
+			   	margin-bottom: 2%;
+
+
+}
+
+.third-sidebar	{width: 21%;
+				 float: left;
+				 background-color: white;
+				 margin-left: 3%;
+				 border-radius: 5px;
+			    -moz-border-radius: 5px; 
+			   -webkit-border-radius: 5px;
+			   	padding: 2% 3%;
+			   	margin-bottom: 2%;
+
+
+
+}
+
+
+
+.main-footer	{width: 100%;
+				  float: left;
+				  border-radius: 5px;
+			     -moz-border-radius: 5px; 
+			  	 -webkit-border-radius: 5px;
+				   background-color: #666;
+				   margin: 2% 0;
+				   height: 40px;
+				   
+
+}
+
+.main-footer p 	{width: 92%;
+				 margin: 2% auto;
+				 color: white;
+}
+.note, .external a	{font-style: normal;
+		 			 font-family: Georgia;
+		 			 color: blue;
+		 			 font-weight: bold;
+		}
+
+
+@media only screen and (min-width: 150px) and (max-width: 800px)	
+
+{
+
+.body	{ font-size: 90%;
+		  width: 99%;
+		  
+
+}
+
+.main-header nav	{
+					 height: 200px;
+					
+
+}
+
+.main-header nav ul	{ padding-left: 0;
+
+
+}
+
+.main-header nav ul li 		{ width: 100%;
+							  text-align: center;
+
+}
+
+.main-header nav a:link, .main-header nav a:visited	{ color: white;
+													  display: block;
+													  padding: 10px 25px;
+													  height: 20px;
+
+} 
+
+
+.content 	{ width: 100%;
+			  float: left;
+			  margin-top: 2%;
+}
+
+.top-content	{border-radius: 5px;
+			    -moz-border-radius: 5px; 
+			     -webkit-border-radius: 5px;
+			     background-color: white;
+			    padding: 2% 3%;
+			    margin-top: 2%;
+			    margin-bottom: 3%;
+
+		}
+
+.middle-content	{border-radius: 5px;
+			-moz-border-radius: 5px; 
+			-webkit-border-radius: 5px;
+			background-color: white;
+			padding: 2% 3%;
+			margin-top: 2%;
+
+		}
+
+.bottom-content	{
+			margin-top: 3%;
+
+		}
+
+.first-sidebar, .second-sidebar, .third-sidebar 	{width: 94%;
+				 margin: 2% 0 2% 0;
+				 padding: 2% 3%;
+
+
+}
+
+
+
+
+
+
+
+
+}
